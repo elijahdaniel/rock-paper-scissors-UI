@@ -1,5 +1,9 @@
-body {
-    background: linear-gradient(to left,lightblue, white);
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+html {
+    background: linear-gradient(to bottom left,#add8e6 50%, #99C0CC 50%);
+    height: 100%;
+    background-size: cover;
 }
 
 #rock, #paper, #scissors 
@@ -20,7 +24,7 @@ body {
 }
 
 .container {
-    margin-top: 200px;
+    margin-top: 300px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -41,12 +45,13 @@ button:focus {
     background: white;
     height: 13px;
     width: 315px;
+    font-family: 'Major Mono Display', monospace;
 }
 
 .outcomeWindow {
     text-transform: uppercase;
     font-size: 12px;
-    color: rgb(70, 99, 188);
+    color: #3A6E7F;
     font-weight: bold;
     border: 1px solid rgb(173, 173, 173);
     border-radius: 10px;
@@ -57,7 +62,7 @@ button:focus {
 .winnerWindow {
     text-transform: uppercase;
     font-size: 12px;
-    color: rgb(23, 172, 198);
+    color: #C0EFFF;
     font-weight: bold;
     border: 1px solid rgb(173, 173, 173);
     border-radius: 10px;
@@ -67,6 +72,6 @@ button:focus {
 }
 
 #instruct {
-    font-size: 12px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-family: 'Major Mono Display', monospace;
 }
