@@ -1,6 +1,6 @@
 # Rock Paper Scissors
 
-Previously build as a game to play in the console.
+Previously built as a game to play in the console.
 
 Rules:
 
