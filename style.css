@@ -1,82 +1,92 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 
 html {
-    background: linear-gradient(to bottom left,#add8e6 50%, #99C0CC 50%);
-    height: 100%;
-    background-size: cover;
+  background: linear-gradient(to bottom left, #add8e6 50%, #99c0cc 50%);
+  height: 100%;
+  background-size: cover;
 }
 
-#rock, #paper, #scissors 
-{
-    border: 1px solid black;
-    background: white;
-    border-radius: 10px;
-    font-size: 30px;
-    letter-spacing: -2px;
-    box-shadow: 0 8px 6px -6px gray;
-    font-weight: bolder;
-    text-transform: uppercase;
+#rock,
+#paper,
+#scissors {
+  border: 1px solid black;
+  background: white;
+  border-radius: 10px;
+  font-size: 30px;
+  letter-spacing: -2px;
+  box-shadow: 0 8px 6px -6px gray;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
-#rock:hover, #paper:hover, #scissors:hover {
-    border: 1px solid gray;
-    color: gray;
+#rock:hover,
+#paper:hover,
+#scissors:hover {
+  border: 1px solid gray;
+  color: gray;
+  cursor: pointer;
 }
 
 .container {
-    margin-top: 300px;
-    font-family: Arial, Helvetica, sans-serif;
+  margin-top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 button:focus {
-    outline: 0;
+  outline: 0;
 }
 
 #roundHeading {
-    font-weight: 900;
-    letter-spacing: -1px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .scores {
-    font-size: 12px;
-    background: white;
-    height: 13px;
-    width: 315px;
-    font-family: 'Major Mono Display', monospace;
-    padding: 5px;
-    position: relative;
-    top: -20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  background: linear-gradient(to right, transparent, white, transparent);
+  height: 13px;
+  width: 500px;
+  font-family: 'Major Mono Display', monospace;
+  position: relative;
+  padding: 5px;
+  top: -20px;
+  font-weight: 600;
 }
 
 .outcomeWindow {
-    text-transform: uppercase;
-    font-size: 12px;
-    color: #3A6E7F;
-    font-weight: bold;
-    border: 1px solid rgb(173, 173, 173);
-    border-radius: 10px;
-    height: 13px;
-    width: 315px;
-    background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.24);
+  width: 500px;
+  height: 40px;
+  color: black;
 }
 
 .winnerWindow {
-    text-transform: uppercase;
-    font-size: 50px;
-    color: #3A6E7F;
-    font-weight: bold;
-    border-radius: 10px;
-    height: 13px;
-    width: 315px;
-    margin-top: 5px;
-    position: relative;
-    top: 150px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #3a6e7f;
+  font-weight: bold;
+  border-radius: 10px;
+  height: 13px;
+  width: 315px;
+  margin-top: 5px;
+  position: relative;
+  top: 150px;
 }
 
 #instruct {
-    font-size: 15px;
-    font-family: 'Major Mono Display', monospace;
+  font-size: 1rem;
+  font-family: 'Major Mono Display', monospace;
 }
